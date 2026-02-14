@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // VICTORY FIX: Changed from '/' to './' to resolve pathing/routing hurdles
+      // VICTORY FIX: Ensures assets resolve correctly on static hosting
       base: './', 
       server: {
         port: 3000,
