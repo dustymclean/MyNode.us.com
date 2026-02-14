@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// DETERMINISTIC FIX: HashRouter resolves static host routing errors and 404s
+// DETERMINISTIC FIX: Fixes static host routing errors
 import { HashRouter } from 'react-router-dom'; 
 import App from './App';
 import './index.css'; 
