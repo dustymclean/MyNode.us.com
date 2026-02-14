@@ -1,12 +1,9 @@
-@import "tailwindcss";
+/* Tailwind base, components, utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --color-charcoal: #1A1A1B;
-  --color-rose-gold: #E5B1B1;
-  --color-soft-white: #F8F8F8;
-  --color-deep-black: #0D0204;
-}
-
+/* Custom styles */
 @layer base {
   body {
     @apply bg-charcoal text-soft-white antialiased;
